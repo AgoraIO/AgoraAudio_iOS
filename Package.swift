@@ -11,7 +11,7 @@ let package = Package(
         .library(
             name: "AgoraRtcKit",
             targets: [
-                "AgoraAIDenoiseExtension.xcframework","AgoraCore.xcframework","Agorafdkaac.xcframework","AgoraRtcKit.xcframework","AgoraSoundTouch.xcframework"
+                "AgoraAIDenoiseExtension","AgoraCore","Agorafdkaac","AgoraRtcKit","AgoraSoundTouch"
             ]
         ),
     ],
@@ -19,27 +19,27 @@ let package = Package(
         .binaryTarget(
             name: "AgoraAIDenoiseExtension",
             url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/3.4.6.2/AgoraAIDenoiseExtension.xcframework.zip",
-            checksum: "90be5bf3ebe30676a19e56618137f7f8cccd5d71ab636a0e2701947cd6b6a99e"
+            checksum: "6b9e1a6375c9ec6e646e93943898d34f265fa9e5b99c7b7c33ad2747aa2a329f"
         ),
         .binaryTarget(
             name: "AgoraCore",
             url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/3.4.6.2/AgoraCore.xcframework.zip",
-            checksum: "b17530fcc5ad8a88783262ba389659a1d1b485f7d34985a4bd5afe19adc9a1f0"
+            checksum: "e9c8e93b766d89fa63343e2f91186fe6c1dd138a1aaa76210e1458bb5dccaa52"
         ),
         .binaryTarget(
             name: "Agorafdkaac",
             url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/3.4.6.2/Agorafdkaac.xcframework.zip",
-            checksum: "ec67680f3159790e071596c546154943ed313fa760ca5fa151bc16d199487f0f"
+            checksum: "ad322e9156d6f09b861e031eb7fd247c2f841fbb48584e618470101905b24746"
         ),
         .binaryTarget(
             name: "AgoraRtcKit",
             url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/3.4.6.2/AgoraRtcKit.xcframework.zip",
-            checksum: "72d0fd55c8372bf86ddf777f698799fe2369b635561c83cb24a71fac19722b93"
+            checksum: "af90595ac1ec9a67f1e46d509e0515698043cc6c4a618515c5b19b0a26b6dcf8"
         ),
         .binaryTarget(
             name: "AgoraSoundTouch",
             url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/3.4.6.2/AgoraSoundTouch.xcframework.zip",
-            checksum: "af6b2fe33984d2d0c560604e7795ef46d2087b6be922b097c0dc1634a85e9128"
+            checksum: "1889819daf168a8dfb25a3029501764797b1c901cad51594863024e05b0db17b"
         ),
     ]
 )

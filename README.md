@@ -12,7 +12,7 @@ Install Agora Audio SDK easily with Swift Package Manager.
 
 ## Installation
 
-Add the URL of this repository to your Xcode 11+ Project.
+Add the URL of this repository to your Xcode 12+ Project.
 
 Go to _File > Swift Packages > Add Package Dependency_, and paste in the link to this repository:
 

@@ -23,58 +23,58 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AgoraRtcKit",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraRtcKit.xcframework.zip",
-            checksum: "1feb10815271fb76dd7c62f930dd0526f3826c940e929f129c1b7aa5ddc5ee29"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraRtcKit.xcframework.zip",
+            checksum: "263b68b44bc13bf0379e60d2811a99ead8c90486c71cdaf3d9b8d838a7f113ce"
         ),
         .binaryTarget(
             name: "Agorafdkaac",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/Agorafdkaac.xcframework.zip",
-            checksum: "775aa9ea60b1906d3166927c7133f60bd362b84fbade89ea5242e1ec6d98e477"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/Agorafdkaac.xcframework.zip",
+            checksum: "21432a737d5268fc4b2256b90568d9e8f351d01487da06482f1b6d047c35f921"
         ),
         .binaryTarget(
             name: "Agoraffmpeg",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/Agoraffmpeg.xcframework.zip",
-            checksum: "46884c3643bf9596dd121b7932ce64217915d9dd4a306a3759e4c1828034ee91"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/Agoraffmpeg.xcframework.zip",
+            checksum: "04904fb73693b45aecb171205110fc8705a84beeef0cb3324ed0bb8a9b365d17"
         ),
         .binaryTarget(
             name: "AgoraSoundTouch",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraSoundTouch.xcframework.zip",
-            checksum: "73dbe98e9acc1b9398e943fecd2f0dd2694d2c6a830de93dfca45f3c656b371d"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraSoundTouch.xcframework.zip",
+            checksum: "091989c6cfada36d9e0d9a38f2acd68a05a9508eeb5827866afe6a72b662de1a"
         ),
         .binaryTarget(
             name: "AgoraAiNoiseSuppressionExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraAiNoiseSuppressionExtension.xcframework.zip",
-            checksum: "d41d3aabbeef3775a8041f12ea5dc0c655bdabfd1f35ef4e220266d036c83021"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraAiNoiseSuppressionExtension.xcframework.zip",
+            checksum: "24cb68d9515014dedf7c8aa0a24040a4345c7f98409d2df7fa3c0e92d06bdc90"
         ),
         .binaryTarget(
             name: "AgoraAiNoiseSuppressionLLExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraAiNoiseSuppressionLLExtension.xcframework.zip",
-            checksum: "9bb33603725cdcb558d95ece2c6618247369072cd80b7890057b9a9b2b13b7b4"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraAiNoiseSuppressionLLExtension.xcframework.zip",
+            checksum: "3b9fba38ea146fb47498b4cdea12963ad660d1d82687522a4610ef1924764dbd"
         ),
         .binaryTarget(
             name: "AgoraAudioBeautyExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraAudioBeautyExtension.xcframework.zip",
-            checksum: "266fe990f108da733db1d23fa8499976e89d6b26d47440544a460df09a707bb2"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraAudioBeautyExtension.xcframework.zip",
+            checksum: "09708d3f4e381c8d914358ba7b7a016f051c5ad73d08f026a579d2e985d4b4ab"
         ),
         .binaryTarget(
             name: "AgoraSpatialAudioExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraSpatialAudioExtension.xcframework.zip",
-            checksum: "4e7349719580e21d77c5e9299238223da8b7165e5fd7e8b3625523f914f60601"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraSpatialAudioExtension.xcframework.zip",
+            checksum: "0a0ba94b11f7bf608898582752053a2ef71329289387208d93b3824a483ae9a2"
         ),
         .binaryTarget(
             name: "AgoraAiEchoCancellationExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraAiEchoCancellationExtension.xcframework.zip",
-            checksum: "c404f068f6fda1776cc0175c035c54631a4cb3a78cef2e9465f3a389c273d062"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraAiEchoCancellationExtension.xcframework.zip",
+            checksum: "695f5e8405f84e932f2c5d9e9ad29f25b47cb6a2506b0474338e6ef94bdf5f25"
         ),
         .binaryTarget(
             name: "AgoraAiEchoCancellationLLExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraAiEchoCancellationLLExtension.xcframework.zip",
-            checksum: "643fa8c0477cb57b5bff47807de96ec3cb16ff7ceb045f1f9b5178599fdbf6fc"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraAiEchoCancellationLLExtension.xcframework.zip",
+            checksum: "2331a341d6fb597950e233a299575be9de547836a96d36b47adf405e7cda4e86"
         ),
         .binaryTarget(
             name: "AgoraLipSyncExtension",
-            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.1/AgoraLipSyncExtension.xcframework.zip",
-            checksum: "def5a0a47c4e3b8d833975b1d131a79859aee7fdea91ad6403e492a172ba7bd5"
+            url: "https://download.agora.io/swiftpm/AgoraAudio_iOS/4.5.2.test/AgoraLipSyncExtension.xcframework.zip",
+            checksum: "307e3e013101b8f1b25a237effd3e0736dc6b2a1d77a50dcc352f35338d33a58"
         ),
         .target(
             name: "AgoraInfra_iOS",
